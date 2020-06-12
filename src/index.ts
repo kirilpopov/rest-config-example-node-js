@@ -6,7 +6,7 @@ import layouts from "./layouts";
 import configs from "./configs";
 
 // configuration
-const port = process.env.SERVER_PORT || 8004;
+const port = process.env.PORT || 8004;
 const configsFolder = process.env.CONFIGS_FOLDER || "./configuration/%REGION%-%ENV%/configs";
 const layoutsFolder = process.env.LAYOUTS_FOLDER || "./configuration/%REGION%-%ENV%/layouts";
 const appsFolder = process.env.APPS_FOLDER || "./configuration/%REGION%-%ENV%/apps";
